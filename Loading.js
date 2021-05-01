@@ -5,8 +5,8 @@ import { StatusBar } from "expo-status-bar";
 export default function Loading() {
   return (
     <View style={styles.container}>
+      <StatusBar style="dark-content" />
       <Text style={styles.text}>Getting the Weather</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
